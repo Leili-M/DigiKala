@@ -1,0 +1,151 @@
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu{
+    width:calc(98vw - 20px);
+    height:500px;
+    display: block;
+    position: absolute;
+    transform: translateX(-18px);
+    display: none;
+    background-color: #ffffff;
+    transition: 200ms;
+}
+div.wrapper>header>div.second>nav>ul>li.first:hover>div.submenu{
+    display: block;
+}
+
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right{
+    width: 18%;
+    height: inherit;
+    border-left: 1px solid #efefef;
+}
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right>ul{
+    width: 100%;
+    height: inherit;
+}
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right>ul>li{
+    width: 100%;
+    height:45px;
+    list-style: none;
+    transition: 500ms;
+}
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right>ul>li>a{
+    display: block;
+    line-height: 45px;
+    text-decoration: none;
+    color: block;
+    padding-right: 20px;
+    font-family: Bnazanin;
+    color: #424750;
+    font-weight: bold;
+}
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right>ul>li>div.links{
+    width: calc(100% - 18%);
+    height: 500px;
+    position: absolute;
+    top: 0;
+    right:18%;
+    display: none;
+}
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right>ul>li>a>svg{
+    transform: translateY(3px);
+    fill:  #424750;
+
+}
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right>ul>li:hover>div.links{
+    display: block;
+}
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right>ul>li:hover>a{
+    background-color: rgba(211, 211, 211, 0.262);
+    color: crimson;
+}
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right>ul>li>a:hover>svg{
+    fill: crimson;
+}
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right>ul>li>div.links>div.right{
+    width: calc(100% - 285px);
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right>ul>li>div.links>div.right>h3{
+    padding-right:30px;
+    width: 80%;
+    height: 50px;
+}
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right>ul>li>div.links>div.right>h3>a{
+    width: auto;
+    height: inherit;
+    font-family: Bnazanin;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right>ul>li>div.links>div.right>h3>a>svg{
+transform: translateY(6px) translateX(5px);
+}
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right>ul>li>div.links>div.right>div{
+    display: inline-block;
+    width: 241px;
+    height:calc(100% - 50px);
+    padding-top: 3px;
+    position: absolute;
+    
+}
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right>ul>li>div.links>div.right>div.first{
+    right: 0px;
+}
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right>ul>li>div.links>div.right>div.second{
+    right: 241px;
+}
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right>ul>li>div.links>div.right>div.third{
+    right: 482px;
+}
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right>ul>li>div.links>div.right>div.forth{
+    right: 723px;
+}
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right>ul>li>div.links>div.right>div>a{
+    display: block;
+    width: 100%;
+    height: 26px;
+    text-decoration: none;
+    color: black;
+    line-height: 26px;
+    padding-right: 18px;
+    font-family: Bnazanin;
+    font-size: 14px;
+}
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right>ul>li>div.links>div.right>div>a[title="title"]{
+font-size: 16px;
+margin-top: 3px;
+font-weight: bold;
+padding-right: 12px;
+}
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right>ul>li>div.links>div.right>div>a[title="title"]>svg{
+    transform: translateY(7px) translateX(6px);
+}
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right>ul>li>div.links>div.right>div>a[title="title"]>div.border{
+    display: inline-block;
+    width: 1px;
+    margin-left: 3px;
+    transform: translateY(5px);
+    background-color: crimson;
+    height: 70%;
+    line-height: 26px;
+}
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right>ul>li>div.links>a{
+    width: auto;
+    height: 231px;
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+
+}
+div.wrapper>header>div.second>nav>ul>li.first>div.submenu>div.right>ul>li>div.links>a>img{
+    width: 285px;
+    height: 231px;
+    border-radius: 16px;
+    object-fit: cover;
+    transform: translateX(20px);
+    
+}
+

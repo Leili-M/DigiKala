@@ -1,0 +1,12 @@
+div.wrapper>div.lastbox{
+    width: 1304px;
+    height: 163px;
+    margin:  50px auto;
+    border-radius: 16px;
+}
+div.wrapper>div.lastbox>img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 16px;
+}

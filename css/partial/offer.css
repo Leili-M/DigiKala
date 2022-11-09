@@ -1,0 +1,98 @@
+/* start of offer*/
+/* start of text*/
+
+div.wrapper>div.offer{
+    width: 1304px;
+    height: 390px;
+    margin: 0 auto;
+    margin-top: 320px;
+    direction: ltr;
+}
+
+div.wrapper>div.offer>div.text{
+    width: inherit;
+    height: 76.1px;
+    margin: 0 auto;
+}
+
+div.wrapper>div.offer>div.text>h2{
+    width: auto;
+    height: inherit;
+    text-align: center;
+    font-size: 26px;
+    font-family: Bnazanin;
+    font-weight: bold;
+}
+
+/* end of text*/
+
+/* start of offerbox*/
+div.wrapper>div.offer>div.offerbox{
+    width: inherit;
+    height: 311.2px;
+    border: 0.5px solid #f0f0f1;
+    padding-top:5px;
+    border-radius: 16px;
+    margin-top: 5px;
+}
+div.wrapper>div.offer>div.offerbox>a{
+    display: inline-block;
+    width: 182.6px;
+    height: 154.1px;
+    padding-top:20px;
+    text-decoration: none;
+}
+
+
+div.wrapper>div.offer>div.offerbox>a>div{
+    width: 84px;
+    height: 84px;
+    margin: 0 auto;
+    padding-top: 10px;
+    background-color: #f0f0f1;
+    border-radius: 100%;
+
+
+
+}
+div.wrapper>div.offer>div.offerbox>a>div[title=img]>img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    background-blend-mode: multiply;
+    background-color: #f0f0f1;
+   
+}
+
+div.wrapper>div.offer>div.offerbox>a>span{
+    display: block;
+    margin: 0 auto;
+    margin-top: 6px;
+    text-align: center;
+    width: 141.7px;
+    height: 30.1px;
+    line-height: 30.1px;
+    font-size: 16px;
+    font-family: Bnazanin;
+    font-weight: bold;
+    color: black;
+}
+
+div.wrapper>div.offer>div.offerbox>a[title=firstrow]{
+    border-right: 1px solid #f0f0f1;
+    border-bottom: 1px solid #f0f0f1;
+}
+div.wrapper>div.offer>div.offerbox>a[title=firstrow-end]{
+    border-bottom: 1px solid #f0f0f1;
+}
+div.wrapper>div.offer>div.offerbox>a[title=secondrow]{
+    border-right:0.5px solid #f0f0f1;
+}
+
+
+/* start of offerbox*/
+
+
+/* end of offer*/

@@ -1,0 +1,73 @@
+div.wrapper>div.brands{
+    width: 1304px;
+    height: 221.1px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 1px solid #e0e0e2;
+    border-radius: 16px;
+}
+
+div.wrapper>div.brands>h3{
+    text-align: center;
+    font-family: Bnazanin;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+div.wrapper>div.brands>h3>svg{
+    transform: translateY(7px);
+    margin-left: 5px;
+}
+div.wrapper>div.brands>div.swiper.brands{
+    width: inherit;
+    height: inherit ;
+}
+div.wrapper>div.brands>div.swiper.brands>div.swiper-wrapper{
+    margin: 0 auto;
+    width: inherit;
+    height: inherit;
+    padding-top: 22px;
+}
+div.wrapper>div.brands>div.swiper.brands>div.swiper-wrapper>div.swiper-slide{
+    width:142px;
+    height: 118px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+div.wrapper>div.brands>div.swiper.brands>div.swiper-wrapper>div.swiper-slide>div.border{
+    width:1px;
+    height: 100px;
+    background-color: #e0e0e2;
+    display: inline-block ;
+    position: absolute;
+    right: 2px;
+
+}
+div.wrapper>div.brands>div.swiper.brands>div.swiper-wrapper>div.swiper-slide>img{
+    width: 110px;
+    height: 110px;
+    display: inline-block;
+    position: absolute;
+    right: 12px;
+    object-fit: fill;
+    top: calc( 50% - 118px/2);
+}
+div.wrapper>div.brands>div.swiper.brands>div.swiper-wrapper>div.swiper-slide[title="brand"]>img{
+    width: 110px;
+    height: 20px;
+    top: calc(50% - 20px/2);
+}
+div.wrapper>div.brands>div.swiper.brands>div.swiper-wrapper>div.swiper-button-next{
+    all: unset;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+div.wrapper>div.brands>div.swiper.brands>div.swiper-wrapper>div.swiper-button-next::after{
+    content:"" ;
+    all: unset;
+
+}

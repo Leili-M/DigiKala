@@ -1,0 +1,226 @@
+
+div.wrapper>header{
+    width: 100%;
+    height: 108px;
+    position: relative;
+    top: 0%;
+    position: sticky;
+    background-color: #ffffff;
+    z-index: 2;
+}
+div.wrapper>header>div.first{
+    width: inherit;
+    height: 68px;
+}
+div.wrapper>header>div.first>div{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+}
+
+
+
+/* start of logo*/
+div.wrapper>header>div.first>div.logo{
+    width: 115px;
+    height: 30px;
+    position: absolute;
+    right: 12px;
+    top: calc(50% - 68px/2);
+}
+div.wrapper>header>div.logo>img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+/* end of logo*/
+
+
+
+
+
+
+/* start of search-box*/
+div.wrapper>header>div.first>div.searchbox{
+    width: 600px;
+    height: 44px;
+    background-color: var(--darkgray);
+    position: relative;
+    right: 150px;
+    top: calc(50% - 44px/2);
+    border-radius: var(--radius);
+}
+div.wrapper>header>div.first>div.searchbox>div{
+    display: inline-block;
+}
+div.wrapper>header>div.first>div.searchbox>svg{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    height: 24px;
+    position: absolute;
+    top: calc(50% - 24px/2);
+    right: 5px;
+}
+div.wrapper>header>div.first>div.border{
+    width: 1px;
+    height: 30px;
+    background-color: #e0e0e2;
+    display: inline-block;
+    position: absolute;
+    left: 75px;
+    top: 20px;
+}
+div.wrapper>header>div.first>div.searchbox>div.s>form>input{
+    background-color: var(--darkgray);
+    border: none;
+    outline-width: 0;
+    width: calc(100% - 50px);
+    position: absolute;
+    right: 45px;
+    top: 12px;
+    font-size: 16px;
+    font-family: Bnazanin;
+}
+/* end of search-box*/
+
+
+/* start of cartoff*/
+div.wrapper>header>div.first>div.cartoff{
+position: absolute;
+top: calc(50% - 68px/2);
+left: 30px;}
+
+div.wrapper>header>div.first>div.cartoff>svg.cartoff{
+    width: 24px;
+    height: 24px;
+}
+/* end of cartoff*/
+
+/* start of profile*/
+div.wrapper>header>div.first>div.profile{
+    position: absolute;
+    top: calc(50% - 68px/2);
+    left: 110px;
+}   
+  
+div.wrapper>header>div.first>div.profile>svg.profile{
+    width: 24px;
+    height: 24px;
+}
+
+/* end of profile*/
+
+
+/* start of div.second*/
+/* start of nav*/
+div.wrapper>header>div.second{
+    width: 100%;
+    height: 40px;
+    position: relative;
+}
+div.wrapper>header>div.second>nav{
+    width: inherit;
+    height: inherit;
+}
+div.wrapper>header>div.second>nav>ul{
+    width: inherit;
+    height: inherit;
+}
+div.wrapper>header>div.second>nav>ul>li{
+    width: auto;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    margin-left:34px ;
+    padding-top: 5px;
+    transition: 200ms cubic-bezier(.27,.32,.73,.74);
+}
+div.wrapper>header>div.second>nav>ul>li.first{
+    width: 140px;
+}
+div.wrapper>header>div.second>nav>ul>li.first>a{
+    padding-right: 20px;
+}
+div.wrapper>header>div.second>nav>ul>li.second{
+    width: 82px;
+}
+
+div.wrapper>header>div.second>nav>ul>li.first>div.border{
+    width:1px;
+    height: 18px;
+    background-color: #e0e0e2;
+    display: inline-block ;
+    position: absolute;
+    left: -20px;
+    top:calc(50% - 18px/2) ;
+}
+div.wrapper>header>div.second>nav>ul>li.second>div.border{
+    width:1px;
+    height: 18px;
+    background-color: #e0e0e2;
+    display: inline-block ;
+    position: absolute;
+    left: -25px;
+    top:calc(50% - 18px/2) ;
+}
+div.wrapper>header>div.second>nav>ul>li>a>{
+    width: inherit;
+    height: inherit;
+    display:block;
+    text-align: center;
+    text-decoration: none;
+}
+div.wrapper>header>div.second>nav>ul>li:hover>a>span{
+    border-bottom: 2px solid red;
+}
+
+div.wrapper>header>div.second>nav>ul>li>a>svg{
+    width: 18px;
+    height: 18px;
+    text-decoration: none;
+    position: absolute;
+    top: calc(50% - 18px/2);
+}
+div.wrapper>header>div.second>nav>ul>li>a>span{
+    display: inline-block;
+    position: relative;
+    right:20px;
+    text-decoration: none;
+    font-family: Bnazanin;
+    padding-top: 3px;
+    padding-bottom: 7px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #62666D;
+}
+div.wrapper>header>div.second>nav>ul>li>a>span.daste{
+    font-weight: bold;
+    color: #424750;
+    font-size: 18px;
+}
+div.wrapper>header>div.second>nav>ul>div.send{
+    width: auto;
+    position: relative;
+    left: 20px;
+    text-align: center;
+    line-height: 10px;
+}
+div.wrapper>header>div.second>nav>ul>div.send>svg{
+    width: 18px;
+    height: 18px;
+    text-decoration: none;
+    position: absolute;
+    top: calc(50% - 60px/2);
+    left: 110px;
+}
+div.wrapper>header>div.second>nav>ul>div.send>span{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top:calc(50% - 50px/2);
+    font-size: 15px;
+    font-family: Bnazanin;
+}
+    

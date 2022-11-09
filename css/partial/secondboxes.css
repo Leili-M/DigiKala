@@ -1,0 +1,429 @@
+/* start of firstbox*/
+div.wrapper>div.secondboxes{
+    width: 1312px;
+    height: calc(258px + 402px);
+    margin: 0 auto;
+    margin-top: 25px;
+}
+div.wrapper>div.secondboxes>div.firstbox{
+    width: inherit;
+    height: 258px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+  
+}
+div.wrapper>div.secondboxes>div.firstbox>a.first{
+    display: inline-block;
+    width: 646px;
+    height: 258px;
+    margin-left: 12px
+}
+div.wrapper>div.secondboxes>div.firstbox>a>img{
+    width: 646px;
+    height: inherit;
+    object-fit: cover;
+    border-radius:16px ;
+    display: inline-block;
+}
+
+/* end of first box*/
+
+
+/* start of secondbox*/
+div.wrapper>div.secondboxes>div.secondbox{
+    width: inherit;
+    height: auto;
+    margin-top: 25px;
+    background-color: #fff;
+    border: 1px solid #f0f0f1;
+    border-radius: 16px;
+
+
+}
+div.wrapper>div.secondboxes>div.secondbox>div.first{
+    width: 324px;
+    height: 418.65px;
+    display: inline-block;
+    border-left: 1px solid #f0f0f1;
+    padding-top: 12px;
+
+}
+div.wrapper>div.secondboxes>div.secondbox>div.first>h3{
+    width: inherit;
+    height: 34.4px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Bnazanin;
+    padding-right: 15px;
+    color: #232933;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.first>h4{
+    width: inherit;
+    height: 23.86px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Bnazanin;
+    line-height: 24px;
+    padding-right: 15px;
+    color:#81858B
+}
+div.wrapper>div.secondboxes>div.secondbox>div.first>div.firstrow{
+    width: inherit;
+    height: 146.8px;
+    text-align: center;
+    padding-top: 11px;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.first>div.firstrow>a{
+    width: 142px;
+    height: 146.68px;
+    border-right: 1px solid #f0f0f1;
+    display: inline-block;
+    padding: 0px 10px 18px 10px;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.first>div.firstrow>a>img{
+    display: block;
+    width: 125.88px;
+    height: 125.88px;
+    margin: 0 auto;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.first>div.secondrow{
+    width: 90%;
+    margin: 0 auto;
+    height: 146.8px;
+    text-align: center;
+    padding-top: 11px;
+    border-top: 1px solid #f0f0f1;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.first>div.secondrow>a{
+    width: 142px;
+    height: 146.68px;
+    border-right: 1px solid #f0f0f1;
+    display: inline-block;
+    padding: 0px 10px 10px 10px;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.first>div.secondrow>a>img{
+    display: block;
+    width: 125.88px;
+    height: 125.88px;
+    margin: 0 auto;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.first>a{
+width: 100%;
+height: 26px;
+display: block;
+margin: 0 auto;
+text-align: center;
+text-decoration: none;
+margin-top: 10px;
+
+
+}
+
+div.wrapper>div.secondboxes>div.secondbox>div.first>a>span{
+    width: auto;
+    height: 26.04px;
+    font-family: Bnazanin;
+    font-size: 18px;
+    color: #19bfd3;
+    font-weight: bold;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.first>a>svg{
+   transform: translateY(6px);
+}
+div.wrapper>div.secondboxes>div.secondbox>div.first>div.firstrow>.first,div.wrapper>div.secondboxes>div.secondbox>div.first>div.secondrow>a.first{
+    border-right: unset;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.second{
+    width: 324px;
+    height: 418.65px;
+    display: inline-block;
+    border-left: 1px solid #f0f0f1;
+
+}
+div.wrapper>div.secondboxes>div.secondbox>div.second>h3{
+    width: inherit;
+    height: 34.4px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Bnazanin;
+    line-height: 34.4px;
+    padding-right: 15px;
+    color: #232933;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.second>h4{
+    width: inherit;
+    height: 23.86px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Bnazanin;
+    line-height: 24px;
+    padding-right: 15px;
+    color:#81858B
+}
+div.wrapper>div.secondboxes>div.secondbox>div.second>div.firstrow{
+    width: inherit;
+    height: 146.8px;
+    text-align: center;
+    padding-top: 11px;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.second>div.firstrow>a{
+    width: 142px;
+    height: 146.68px;
+    border-right: 1px solid #f0f0f1;
+    display: inline-block;
+    padding: 0px 10px 18px 10px;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.second>div.firstrow>a>img{
+    display: block;
+    width: 125.88px;
+    height: 125.88px;
+    margin: 0 auto;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.second>div.secondrow{
+    width: 90%;
+    margin: 0 auto;
+    height: 146.8px;
+    text-align: center;
+    padding-top: 11px;
+    border-top: 1px solid #f0f0f1;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.second>div.secondrow>a{
+    width: 142px;
+    height: 146.68px;
+    border-right: 1px solid #f0f0f1;
+    display: inline-block;
+    padding: 0px 10px 10px 10px;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.second>div.secondrow>a>img{
+    display: block;
+    width: 125.88px;
+    height: 125.88px;
+    margin: 0 auto;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.second>a{
+width: 100%;
+height: 26px;
+display: block;
+margin: 0 auto;
+text-align: center;
+text-decoration: none;
+margin-top: 10px;
+
+
+}
+
+div.wrapper>div.secondboxes>div.secondbox>div.second>a>span{
+    width: auto;
+    height: 26.04px;
+    font-family: Bnazanin;
+    font-size: 18px;
+    color: #19bfd3;
+    font-weight: bold;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.second>a>svg{
+   transform: translateY(6px);
+}
+div.wrapper>div.secondboxes>div.secondbox>div.second>div.firstrow>.first,div.wrapper>div.secondboxes>div.secondbox>div.second>div.secondrow>a.first{
+    border-right: unset;
+}
+
+
+div.wrapper>div.secondboxes>div.secondbox>div.third{
+    width: 324px;
+    height: 418.65px;
+    display: inline-block;
+    border-left: 1px solid #f0f0f1;
+
+}
+div.wrapper>div.secondboxes>div.secondbox>div.third>h3{
+    width: inherit;
+    height: 34.4px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Bnazanin;
+    line-height: 34.4px;
+    padding-right: 15px;
+    color: #232933;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.third>h4{
+    width: inherit;
+    height: 23.86px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Bnazanin;
+    line-height: 24px;
+    padding-right: 15px;
+    color:#81858B
+}
+div.wrapper>div.secondboxes>div.secondbox>div.third>div.firstrow{
+    width: inherit;
+    height: 146.8px;
+    text-align: center;
+    padding-top: 11px;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.third>div.firstrow>a{
+    width: 142px;
+    height: 146.68px;
+    border-right: 1px solid #f0f0f1;
+    display: inline-block;
+    padding: 0px 10px 18px 10px;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.third>div.firstrow>a>img{
+    display: block;
+    width: 125.88px;
+    height: 125.88px;
+    margin: 0 auto;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.third>div.secondrow{
+    width: 90%;
+    margin: 0 auto;
+    height: 146.8px;
+    text-align: center;
+    padding-top: 11px;
+    border-top: 1px solid #f0f0f1;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.third>div.secondrow>a{
+    width: 142px;
+    height: 146.68px;
+    border-right: 1px solid #f0f0f1;
+    display: inline-block;
+    padding: 0px 10px 10px 10px;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.third>div.secondrow>a>img{
+    display: block;
+    width: 125.88px;
+    height: 125.88px;
+    margin: 0 auto;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.third>a{
+width: 100%;
+height: 26px;
+display: block;
+margin: 0 auto;
+text-align: center;
+text-decoration: none;
+margin-top: 10px;
+
+
+}
+
+div.wrapper>div.secondboxes>div.secondbox>div.third>a>span{
+    width: auto;
+    height: 26.04px;
+    font-family: Bnazanin;
+    font-size: 18px;
+    color: #19bfd3;
+    font-weight: bold;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.third>a>svg{
+   transform: translateY(6px);
+}
+div.wrapper>div.secondboxes>div.secondbox>div.third>div.firstrow>.first,div.wrapper>div.secondboxes>div.secondbox>div.third>div.secondrow>a.first{
+    border-right: unset;
+}
+
+div.wrapper>div.secondboxes>div.secondbox>div.forth{
+    width: 324px;
+    height: 418.65px;
+    display: inline-block;
+   
+
+}
+div.wrapper>div.secondboxes>div.secondbox>div.forth>h3{
+    width: inherit;
+    height: 34.4px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Bnazanin;
+    line-height: 34.4px;
+    padding-right: 15px;
+    color: #232933;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.forth>h4{
+    width: inherit;
+    height: 23.86px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Bnazanin;
+    line-height: 24px;
+    padding-right: 15px;
+    color:#81858B
+}
+div.wrapper>div.secondboxes>div.secondbox>div.forth>div.firstrow{
+    width: inherit;
+    height: 146.8px;
+    text-align: center;
+    padding-top: 11px;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.forth>div.firstrow>a{
+    width: 142px;
+    height: 146.68px;
+    border-right: 1px solid #f0f0f1;
+    display: inline-block;
+    padding: 0px 10px 18px 10px;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.forth>div.firstrow>a>img{
+    display: block;
+    width: 125.88px;
+    height: 125.88px;
+    margin: 0 auto;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.forth>div.secondrow{
+    width: 90%;
+    margin: 0 auto;
+    height: 146.8px;
+    text-align: center;
+    padding-top: 11px;
+    border-top: 1px solid #f0f0f1;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.forth>div.secondrow>a{
+    width: 142px;
+    height: 146.68px;
+    border-right: 1px solid #f0f0f1;
+    display: inline-block;
+    padding: 0px 10px 10px 10px;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.forth>div.secondrow>a>img{
+    display: block;
+    width: 125.88px;
+    height: 125.88px;
+    margin: 0 auto;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.forth>a{
+width: 100%;
+height: 26px;
+display: block;
+margin: 0 auto;
+text-align: center;
+text-decoration: none;
+margin-top: 10px;
+
+
+}
+
+div.wrapper>div.secondboxes>div.secondbox>div.forth>a>span{
+    width: auto;
+    height: 26.04px;
+    font-family: Bnazanin;
+    font-size: 18px;
+    color: #19bfd3;
+    font-weight: bold;
+}
+div.wrapper>div.secondboxes>div.secondbox>div.forth>a>svg{
+   transform: translateY(6px);
+}
+div.wrapper>div.secondboxes>div.secondbox>div.forth>div.firstrow>.first,div.wrapper>div.secondboxes>div.secondbox>div.forth>div.secondrow>a.first{
+    border-right: unset;
+}
+
+
+/* end of secondbox*/

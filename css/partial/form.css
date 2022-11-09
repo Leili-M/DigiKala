@@ -1,0 +1,59 @@
+div.wrapper>header>div.first>div.form{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 20px;
+    left: 88px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+
+div.wrapper>header>div.first>div.form>svg.form{
+    width: 22px;
+    height: 22px;
+    fill: #474747;
+    cursor: pointer;
+    transition:2s ;
+    transition-timing-function: ease;
+    
+}
+div.wrapper>header>div.first>div.form>ul{
+    width: 120px;
+    height: 30px;
+    border-radius:6px;
+    border: 1px solid #efefef;
+    position: absolute;
+    left:-45px;
+    top: 25px;
+    list-style: none;
+    display: none;
+   transition: 300ms;
+}
+div.wrapper>header>div.first>div.form>ul>li{
+    width: inherit;
+    height: inherit;
+    list-style: none;
+}
+div.wrapper>header>div.first>div.form>ul>li>a{
+    width: inherit;
+    height: inherit;
+    text-decoration: none;
+}
+div.wrapper>header>div.first>div.form>ul>li>a>input{
+    display: none;
+}
+div.wrapper>header>div.first>div.form>ul>li>a>label{
+    display: block;
+    text-align: center;
+    font-family: Bnazanin;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(187, 6, 42);
+    cursor: pointer;
+}
+div.wrapper>header>div.first>div.form>svg.form:hover~ul{
+    display: block;
+    background-color: #efefef;
+}

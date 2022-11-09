@@ -1,0 +1,87 @@
+div.wrapper>div.digiclub{
+    width: 1304px;
+    height: 88px;
+    background-color: teal;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 16px;
+}
+div.wrapper>div.digiclub>div.logo{
+    width: 119px;
+    height: 33px;
+    margin-right: 10px;
+    display: inline-block;
+    transform: translateX(-50px) translateY(-10px);
+}
+div.wrapper>div.digiclub>div.logo>img{
+    display: block;
+    margin: 00 auto;
+    width: inherit;
+    height: inherit;
+}
+div.wrapper>div.digiclub>div.score{
+    width: 94px;
+    height: 44px;
+    display: inline-block;
+    transform: translateX(-260px) translateY(-22px);
+
+}
+div.wrapper>div.digiclub>div.score>span{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    font-family: Bnazanin;
+    font-size: 18px;
+    color: #ffffff;
+}
+div.wrapper>div.digiclub>div.score>span>b{
+    font-size: 22px;
+}
+div.wrapper>div.digiclub>div.score>img{
+    transform: translateY(3px);
+    width: 20px;
+    height: 20px;
+}
+div.wrapper>div.digiclub>div.third , div.wrapper>div.digiclub>div.forth , div.wrapper>div.digiclub>div.fifth{
+    display: inline-block;
+    width: 257.3px;
+    height: 64px;
+    transform: translateX(-280px);
+    margin-top: 10px;
+    background-color: #ffffff;
+}
+div.wrapper>div.digiclub>div.third {
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+div.wrapper>div.digiclub>div.fifth{
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+
+}
+div.wrapper>div.digiclub>div.third>div , div.wrapper>div.digiclub>div.forth>div , div.wrapper>div.digiclub>div.fifth>div{
+    width: 75.3px;
+    height: 26px;
+    display: inline-block;
+    transform: translateY(-25px);
+
+}
+div.wrapper>div.digiclub>div.third>div>span , div.wrapper>div.digiclub>div.forth>div>span , div.wrapper>div.digiclub>div.fifth>div>span{
+    width: auto;
+    height: auto;
+    display: block;
+    font-family: Bnazanin;
+    font-size: 14px;
+    font-weight: bold;
+    transform: translateX(-15px);
+}
+div.wrapper>div.digiclub>div.third>div>span>svg , div.wrapper>div.digiclub>div.forth>div>span>svg , div.wrapper>div.digiclub>div.fifth>div>span>svg{
+    transform: translateY(7px);
+}
+div.wrapper>div.digiclub>div.third>img , div.wrapper>div.digiclub>div.forth>img , div.wrapper>div.digiclub>div.fifth>img{
+    width: 165px;
+    height: 60px;
+    object-fit: cover;
+    transform: translateX(-10px) translateY(2px);
+}
+

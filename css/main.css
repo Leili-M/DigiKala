@@ -1,0 +1,43 @@
+@import url(./partial/header.css);
+@import url(./partial/nav.css);
+@import url(./partial/slider.css);
+@import url(./partial/topboxes.css);
+@import url(./partial/grouping.css);
+@import url(./partial/offer.css);
+@import url(./partial/brands.css);
+@import url(./partial/secondboxes.css);
+@import url(./partial/digiplus.css);
+@import url(./partial/digiclub.css);
+@import url(./partial/thirdboxes.css);
+@import url(./partial/lastbox.css);
+@import url(./partial/form.css);
+@import url(./partial/footer.css);
+
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --darkgray:#f0f0f1;
+    --radius:8px
+}
+body{
+    scroll-behavior: smooth;
+}
+
+
+
+@font-face{
+    font-family: Bnazanin;
+    src: url(../fonts/B-NAZANIN.eot);
+    src: url(../fonts/B-NAZANIN.woff);
+    src: url(../fonts/B-NAZANIN.woff2);
+    src: url(../fonts/B-NAZANIN.TTF);
+
+}
